@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708fb34db10f6fa45b8b50414bc6e4f4, type: 3}
+  m_Name: Chap2PadreDamaso
+  m_EditorClassIdentifier: 
+  name: Chap2PadreDamaso
+  description: 
+  startDialogue:
+    npcLines: []
+  inProgressDialogue:
+    npcLines: []
+  completedDialogue:
+    npcLines:
+    - characterName: Padre Damaso
+      characterIcon: {fileID: 2104478290, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: "Cuando el cura ordena desenterrar el cadáver de un hereje, ni el rey tiene derecho a intervenir ni a castigarlo."
+    - characterName: Teniente
+      characterIcon: {fileID: 1108219292, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Debes saber que el General es representante del Rey. Retira lo que has dicho, si no, mañana el General lo sabrá.
+    - characterName: Teniente
+      characterIcon: {fileID: 1108219292, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: 'Es cierto que no se confesaba, pero es mentira decir que se suicidó. Era fiel a su deber con Dios y con la sociedad.'
+    - characterName: Teniente
+      characterIcon: {fileID: 1108219292, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: 'Tenía un único hijo en Europa, así que no había razón para que se suicidara. Cuando llegó el cura a San Diego, hizo golpear al coadjutor y ordenó desenterrar el cadáver para enterrarlo en otro lugar.'
+    - characterName: Teniente
+      characterIcon: {fileID: 1108219292, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: 'Cuando el General se enteró de esto, trasladó a Padre Dámaso a otro pueblo.'
+  textGuideString: 
+  toDoToFinishQuest: 
+  requiredItem: {fileID: 0}
+  requiredItemCount: 0
+  rewardItem: {fileID: 0}
+  rewardItemCount: 0
+  coins: 0
+  giveCoins: 0

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708fb34db10f6fa45b8b50414bc6e4f4, type: 3}
+  m_Name: Chap7Flower
+  m_EditorClassIdentifier: 
+  name: Chap7Flower
+  description: 
+  startDialogue:
+    npcLines:
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Hijo, ¿podrías hacerme el favor de conseguir flores de pomelo?
+    - characterName: Player
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Muchas gracias, hijo
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: De nada
+  inProgressDialogue:
+    npcLines:
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: ¿Ya terminaste lo que te pedí?
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Todavía no, vuelve cuando lo hayas terminado
+  completedDialogue:
+    npcLines:
+    - characterName: Player
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Aquí está lo que me pidió
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Oh, ya está aquí el pomelo que te pedí
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Muchas gracias, hijo
+    - characterName: Player
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: De nada
+  textGuideString: Consigue un pomelo y dáselo a Ibarra
+  toDoToFinishQuest: Vuelve con Ibarra para darle el pomelo
+  requiredItem: {fileID: 11400000, guid: 31b413841d496b84ea321a24348883c3, type: 2}
+  requiredItemCount: 0
+  rewardItem: {fileID: 0}
+  rewardItemCount: 0
+  coins: 0
+  giveCoins: 0

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708fb34db10f6fa45b8b50414bc6e4f4, type: 3}
+  m_Name: Kabanata2
+  m_EditorClassIdentifier: 
+  name: Kabanata2
+  description: 
+  startDialogue:
+    npcLines: []
+  inProgressDialogue:
+    npcLines: []
+  completedDialogue:
+    npcLines:
+    - characterName: Capitán Tiago
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: 'Tengo el honor de presentarles al Señor Crisóstomo Ibarra, hijo de mi difunto amigo. Acaba de llegar de Europa y le he dado la bienvenida.'
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: '¡Vaya! El cura de mi pueblo y amigo íntimo de mi padre.'
+    - characterName: Padre Damaso
+      characterIcon: {fileID: 2104478290, guid: 7389fd14a0e8f894a8830314aafae359, type: 3}
+      text: '¡No te equivocas! ¡Tu padre nunca fue mi amigo íntimo!'
+    - characterName: Teniente
+      characterIcon: {fileID: 1108219292, guid: 7389fd14a0e8f894a8830314aafae359, type: 3}
+      text: "Joven, ¿usted es el hijo de Don Rafael Ibarra? Me alegra que haya llegado bien. Tuve la oportunidad de conocer a su padre, y puedo decir que era merecedor de honor y respeto en Filipinas."
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: 'Su elogio a mi padre disipa mis sospechas sobre su muerte.'
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Caballeros, permítanme presentarme, como es costumbre en Alemania, ya que no hay nadie que me presente.
+    - characterName: Ibarra
+      characterIcon: {fileID: -449172851, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: "No deseo traer aquí las costumbres de otras tierras porque nosotros tenemos naturalmente buenas maneras, pero me vi obligado. Caballeros, mi nombre es Juan Crisóstomo Ibarra y Magsalin."
+  textGuideString: 
+  toDoToFinishQuest: 
+  requiredItem: {fileID: 0}
+  requiredItemCount: 0
+  rewardItem: {fileID: 0}
+  rewardItemCount: 0
+  coins: 0
+  giveCoins: 0

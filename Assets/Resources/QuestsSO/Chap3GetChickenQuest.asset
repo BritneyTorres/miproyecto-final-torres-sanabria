@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708fb34db10f6fa45b8b50414bc6e4f4, type: 3}
+  m_Name: Chap3GetChickenQuest
+  m_EditorClassIdentifier: 
+  name: Chap3GetChickenQuest
+  description: 
+  startDialogue:
+    npcLines:
+    - characterName: Capitán Tiago
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: ¡Hola, amigo! Tengo algo que necesito que hagas por mí. Necesito ayuda con algo.
+    - characterName: Capitán Tiago
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Necesito conseguir un pollo fresco para una ocasión especial.
+    - characterName: Capitán Tiago
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: ¿Podrías buscar y comprar un pollo para mí? Mi única petición es que sea fresco y saludable. Si puedes, por favor, hazlo pronto.
+  inProgressDialogue:
+    npcLines:
+    - characterName: Capitán Tiago
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: ¿Cómo estás? ¿Tienes noticias del pollo? La ocasión especial está cerca y realmente necesito el pollo. Espero que hayas encontrado el mejor pollo de allí.
+    - characterName: Capitán Tiago
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: ¿Podrías buscar y comprar un pollo para mí? Mi única petición es que sea fresco y saludable. Si puedes, por favor, hazlo pronto.
+    - characterName: Capitán Tiago
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: De acuerdo, lo haré.
+  completedDialogue:
+    npcLines:
+    - characterName: Capitán Tiago
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: ¡Gracias por tu ayuda! Realmente eres muy bueno ayudando. ¡Mira este pollo, qué hermoso y saludable! Estoy seguro de que los invitados de la ocasión especial lo disfrutarán.
+    - characterName: Capitán Tiago
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: Muchas gracias por tu servicio. Como agradecimiento, tengo un pequeño regalo para ti. ¡Espero que te guste!
+    - characterName: Jugador
+      characterIcon: {fileID: 1751992159, guid: b46f881d861140c44929c7de117f777a, type: 3}
+      text: De nada.
+  textGuideString: Sal y compra un pollo
+  toDoToFinishQuest: Vuelve con el Capitán Tiago y dale el pollo
+  requiredItem: {fileID: 11400000, guid: 280f62b90cd72bd47a824caa0166cbc3, type: 2}
+  requiredItemCount: 1
+  rewardItem: {fileID: 0}
+  rewardItemCount: 0
+  coins: 100
+  giveCoins: 0
